@@ -78,8 +78,6 @@ main {
     .main-content {
         max-width: 45rem;
         margin: 2.4rem auto;
-        // padding: 0 0.2rem;
-
         h1 {
             font-size: calc(26px + (42 - 26) * ((100vw - 325px) / (1440 - 325)));
             line-height: 1.4;
@@ -129,7 +127,7 @@ section {
     display: flex;
     .section-content {
         padding: 6.5rem 1rem 1rem 4rem;
-        h1 {
+        h2 {
             font-size: calc(18px + (42 - 18) * ((100vw - 325px) / (1440 - 325)));
             margin-bottom: 1.5rem;
             padding: 0 2rem 0 0;
